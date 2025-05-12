@@ -111,7 +111,7 @@ void fix_superblock_fields(struct superblock *sb) {
     modified = true;
     printf("[FIX] Superblock fields corrected\n");
 }
-//sudipta
+//swanan
 void load_fs_metadata(const struct superblock *sb) {
     read_block(sb->inode_bitmap_blk, inode_bitmap);
     read_block(sb->data_bitmap_blk, data_bitmap);
